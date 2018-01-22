@@ -4,7 +4,7 @@ from numpy import *
 from matplotlib import pyplot as plt
 import kNN
 
-datingDataMat, datingLables = kNN.file2matrix('datingTestSet2.txt')
+datingDataMat, datingLables = kNN.datingFile2matrix('book_source/Ch02/datingTestSet2.txt')
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
